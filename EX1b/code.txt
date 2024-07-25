@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #101010;
+            text-align: center;
+        }
+        th {
+            background-color: #e600a1;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #e3df92;
+        }
+        tr:hover {
+            background-color: #c5a4e2;
+        }
+        .time {
+            background-color: #9ccfe3;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weekly Timetable</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="time">Time</th>
+                    <th>8.00 - 9.00</th>
+                    <th>9.00 - 9.50</th>
+                    <th>9.50 - 10.10</th>
+                    <th>10.10 - 11.00</th>
+                    <th>11.00 - 11.50</th>
+                    <th>11.50 - 12.30/12.40 </th>
+                    <th>12.30/12.40 - 1.20</th>
+                    <th>1.20 - 2.10</th>
+                    <th>2.10 - 3.00</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td class="time">Tuesday</td>
+                    <td>VAP</td>
+                    <td>VAP</td>
+                    <td>Break</td>
+                    <td>POAI</td>
+                    <td>IP</td>
+                    <td>Lunch</td>
+                    <td>TOC</td>
+                    <td>RPA</td>
+                    <td>RPA</td>
+                    
+                </tr>
+                <tr>
+                    <td class="time">Wednesday</td>
+                    <td>IP</td>
+                    <td>POAI</td>
+                    <td>Break</td>
+                    <td>LIB</td>
+                    <td>Lunch</td> 
+                    <td>CN/POAI lab</td>
+                    <td>CN/POAI lab</td>
+                    <td>TOC</td>
+                    <td>CN</td>
+                </tr>
+                <tr>
+                    <td class="time">Thursday</td>
+                    <td>CN/td>
+                    <td>IP</td>
+                    <td>Break</td>
+                    <td>IP/CN lab</td>
+                    <td>Lunch</td>
+                    <td>COUN</td>
+                    <td>NPTEL</td>
+                    <td>LIB</td>
+                </tr>
+                
+                <tr>
+                    <td class="time">Friday</td>
+                    <td>RPA</td>
+                    <td>RPA</td>
+                    <td>Break</td>
+                    <td>CN</td>
+                    <td>IP</td>
+                    <td>Lunch</td>
+                    <td>TOC</td>
+                    <td>CN/IP lab</td>
+                    <td>CN/IP lab</td>
+                </tr>
+                <tr>
+                    <td class="time">Saturday</td>
+                    <td>POAI/IP lab</td>
+                    <td>POAI/IP lab</td>
+                    <td>Break</td>
+                    <td>POAI</td>
+                    <td>CN</td>
+                    <td>Lunch</td>
+                    <td>TOC</td>
+                    <td>IP/POAI lab</td>
+                    <td>IP/POAI lab</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
